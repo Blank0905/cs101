@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    // 2024 年 11 月的日曆
     printf("   November 2024\n");
     printf("MO Tu We Th Fr Sa Su\n");
     printf("                1  2\n");
