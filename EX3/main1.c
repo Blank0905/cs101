@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 int main () {
     int main i=10;
     if (i & (i-1)){
