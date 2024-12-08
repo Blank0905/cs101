@@ -5,7 +5,7 @@ int main() {
         printf("%*s",i-1,"");
         for(int j = 1 ; j <= h ; j++) {
     	    printf("%d ",h);
-	    }
+	}
         printf("\n");
         h++;
     }
