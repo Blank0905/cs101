@@ -1,13 +1,11 @@
 #include <stdio.h>
 int main() {
     int n = 1;
-    for (int i = 0; i <= 6; i++) {
-        for (int j = 6; j >= 1; j--) {
-            if (j >= n ) {
-                printf(" ");
-            }  
-        }  
-        printf("%d", n);
+    for (int i = 6; i >= 0; i--) {
+        printf("%*s", i, "");
+        for(int k = 0 ;k < n;k++) {
+            printf("%d ", n);
+        }
         n++;
         printf("\n");
     }
