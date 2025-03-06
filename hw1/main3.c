@@ -31,5 +31,6 @@ int main(){
 
 	for (int i = 0 ; i<length2 ; i++){
 		printf("%hx" , sixteen[i]);
-	}	
+	}
+	return 0 ;
 }
